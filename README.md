@@ -14,6 +14,7 @@ git clone https://github.com/AspireSubash/Android-Studio-Projects.git
 Explore a variety of Android Studio projects covering different aspects of app development. Feel free to use, modify, and learn from these projects:
 Project 1: Imuguram - A Real-Life Instagram Clone Made in Kotlin with open source api's,
 Project 2: Real Life Calculator
+Project 3: Music Player - Free Open Source API
 
 📦 Final Apps
 Find the final, compiled apps in the Final_Apps folder. Each project's completed app is stored here for easy access.
