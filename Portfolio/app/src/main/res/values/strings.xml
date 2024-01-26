@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Portfolio</string>
+    <string name="name">Subash</string>
+    <string name="desigination">Software Engineer</string>
+    <string name="todo">TODO</string>
+    <string name="skills">Skills</string>
+    <string name="education">Education</string>
+    <string name="work">Work</string>
+    <string name="achievement">Achievement</string>
+</resources>

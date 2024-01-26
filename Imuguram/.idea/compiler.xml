@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.15.0/bfefc77019c04fb3e1ad94abb0a2c141a78bbbd8/moshi-1.15.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/2.10.0/accaddddbb597fb70290fd40358b1ce66b8c2b3d/okio-jvm-2.10.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.21/67f57e154437cd9e6e9cf368394b95814836ff88/kotlin-stdlib-jdk8-1.8.21.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.21/7473b8cd3c0ef9932345baf569bc398e8a717046/kotlin-stdlib-jdk7-1.8.21.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.21/43d50ab85bc7587adfe3dda3dbe579e5f8d51265/kotlin-stdlib-1.8.21.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.21/d749cd5ae25da36d06e5028785038e24f9d37976/kotlin-stdlib-common-1.8.21.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+        </processorPath>
+        <module name="Imuguram.libimgur.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8" />
+  </component>
+</project>

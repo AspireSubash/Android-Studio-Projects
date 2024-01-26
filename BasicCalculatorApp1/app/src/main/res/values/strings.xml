@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Basic Calculator App!</string>
+    <string name="enter_input_2">Enter Input 2</string>
+    <string name="enter_input_1">Enter Input 1</string>
+    <string name="division_by_zero">division by zero is Infinity\n</string>
+    <string name="invalid_input">Invalid Input</string>
+</resources>

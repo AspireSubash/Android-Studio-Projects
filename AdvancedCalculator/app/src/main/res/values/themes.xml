@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.AdvancedCalculator" parent="Theme.AppCompat">
+    <item name="colorPrimary">@color/orange</item>
+    <item name="colorPrimaryVariant">@color/almostBlack</item>
+    <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.AdvancedCalculator" parent="Base.Theme.AdvancedCalculator">
+
+    </style>
+</resources>
