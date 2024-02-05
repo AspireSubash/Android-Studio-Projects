@@ -37,9 +37,10 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnAC.setOnClickListener {
-            binding.tvExpression.text = " "
-            binding.tvResult.text = " "
+            binding.tvExpression.text = ""
+            binding.tvResult.text = ""
         }
+
 
         binding.btnEqual.setOnClickListener {
             val expression = binding.tvExpression.text.toString()
@@ -49,27 +50,28 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun evaluateExpression(expression: String): Double {
+    private fun evaluateExpression(expression: String): Int {
         return try {
-            val parts = expression.trim().split("\\s+".toRegex())
+//            val parts = expression.trim().split("\\s+".toRegex())
+            val parts = expression.trim().split("\\s".toRegex())
 
             if (parts.size == 3) {
-                val operand1 = parts[0].toDouble()
+                val operand1 = parts[0].toInt()
                 val operator = parts[1]
-                val operand2 = parts[2].toDouble()
+                val operand2 = parts[2].toInt()
 
                 when (operator) {
                     "+" -> operand1 + operand2
                     "-" -> operand1 - operand2
-                    "*" -> operand1 * operand2
+                    "X" -> operand1 * operand2
                     "/" -> operand1 / operand2
-                    else -> 0.0
+                    else -> 0
                 }
             } else {
-                0.0
+                0
             }
         } catch (e: Exception) {
-            0.0
+            0
         }
     }
 

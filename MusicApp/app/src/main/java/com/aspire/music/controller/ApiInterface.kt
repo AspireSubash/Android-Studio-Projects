@@ -8,7 +8,8 @@ import retrofit2.http.Query
 
 interface ApiInterface {
     @Headers(
- // Your api Key
+        "X-RapidAPI-Key: 44e009f6aemshca35e74ec8b77d5p1a1374jsnc7f7b2f3f94d",
+        "X-RapidAPI-Host: deezerdevs-deezer.p.rapidapi.com"
     )
     @GET("search")
     fun getData(@Query("q") query: String): Call<MyData>
