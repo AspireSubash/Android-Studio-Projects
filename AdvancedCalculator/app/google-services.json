@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "501987997774",
+    "project_id": "advanced-calculator-59f95",
+    "storage_bucket": "advanced-calculator-59f95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501987997774:android:0b82c60898588f49306b1f",
+        "android_client_info": {
+          "package_name": "com.example.advancedcalculator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ7V-aaES-0mmuZCJWUP57FdxkkZtfueo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

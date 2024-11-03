@@ -4,12 +4,21 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.example.advancedcalculator.databinding.ActivityMainBinding
-
+import com.google.firebase.Firebase
+import com.google.firebase.analytics.FirebaseAnalytics
+import com.google.firebase.analytics.analytics
+import com.google.firebase.analytics.analytics
+import com.google.firebase.analytics.logEvent
 class MainActivity : AppCompatActivity() {
-
+    //able to import googleEventAnalyser
     private lateinit var binding: ActivityMainBinding
-
+    private lateinit var firebaseAnalytics: FirebaseAnalytics
     override fun onCreate(savedInstanceState: Bundle?) {
+        firebaseAnalytics = Firebase.analytics
+        firebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_ITEM) {
+            param(FirebaseAnalytics.Param.ITEM_LIST_ID, "L001")
+            param(FirebaseAnalytics.Param.ITEM_LIST_NAME, "Related products")
+        }
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)

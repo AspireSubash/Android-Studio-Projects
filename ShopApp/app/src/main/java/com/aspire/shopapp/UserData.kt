@@ -1,12 +1,13 @@
 package com.aspire.shopapp
 
 data class UserData(
-    val __v: Int,
-    val address: Address,
-    val email: String,
     val id: Int,
-    val name: Name,
+    val username: String,
     val password: String,
+    val name: Name,
+    val email: String,
     val phone: String,
-    val username: String
-)
+    val address: Address,
+    val __v: Int,
+
+    )
